@@ -11,7 +11,8 @@ import utilities.TestListener;
         plugin = {
                 "pretty",
                 "html:target/cucumber-html-report",
-                "json:target/cucumber.json"
+                "json:target/cucumber.json",
+                "utilities.CommonFunctions"
         },
         monochrome = true
 )

@@ -1,11 +1,11 @@
 package stepDefinitions;
 
-import utilities.CommonFunctions;
+import utilities.Base;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class CatFactsSteps extends CommonFunctions {
+public class CatFactsSteps extends Base {
 
     @Given("^I have the cats endpoint$")
     public void i_have_the_cats_endpoint(){
