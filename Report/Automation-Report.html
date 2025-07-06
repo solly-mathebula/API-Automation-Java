@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Test Execution Report</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Jul 6, 2025 10:05:39 pm</span></a>
+<a href="#"><span class="badge badge-primary">Jul 6, 2025 10:27:27 pm</span></a>
 </li>
 </ul>
 </div>
@@ -67,6 +67,7 @@
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
 <a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 </ul>
@@ -79,9 +80,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">Cat facts</p>
+            <p class="name">Positive response Cat facts</p>
             <p class="text-sm">
-              <span>22:05:39</span> / <span>00:00:02:039</span>
+              <span>22:27:28</span> / <span>00:00:02:107</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -89,16 +90,16 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">Cat facts</h5>
-<span class='badge badge-success'>07.06.2025 22:05:39</span>
-<span class='badge badge-danger'>07.06.2025 22:05:41</span>
-<span class='badge badge-default'>00:00:02:039</span>
+<h5 class="test-status text-pass">Positive response Cat facts</h5>
+<span class='badge badge-success'>07.06.2025 22:27:28</span>
+<span class='badge badge-danger'>07.06.2025 22:27:30</span>
+<span class='badge badge-default'>00:00:02:107</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
-<div class="m-t-10 m-l-5">Executing Cat facts</div>
+<div class="m-t-10 m-l-5">Executing Positive response Cat facts</div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -106,39 +107,247 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:05:39</td>
+        <td>22:27:28</td>
         <td>
           Given I have the cats endpoint
         </td>
       </tr>
       <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>22:27:30</td>
+        <td>
+          RRequest URL: https://alexwohlbruck.github.io/cat-facts/
+        </td>
+      </tr>
+      <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:05:41</td>
+        <td>22:27:30</td>
         <td>
           When I do a GET request
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:05:41</td>
-        <td>
-          Response body:
-
-io.restassured.internal.RestAssuredResponseImpl@372461a9
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:05:41</td>
+        <td>22:27:30</td>
         <td>
           Then I should get a status code of 200
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>22:05:41</td>
+        <td>22:27:30</td>
         <td>
           Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Negative response Cat facts</p>
+            <p class="text-sm">
+              <span>22:27:30</span> / <span>00:00:00:104</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Negative response Cat facts</h5>
+<span class='badge badge-success'>07.06.2025 22:27:30</span>
+<span class='badge badge-danger'>07.06.2025 22:27:30</span>
+<span class='badge badge-default'>00:00:00:104</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5">Executing Negative response Cat facts</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:27:30</td>
+        <td>
+          Given I have the cats endpoint
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>22:27:30</td>
+        <td>
+          RRequest URL: https://alexwohlbruck.github.io/cat-facts/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:27:30</td>
+        <td>
+          When I do a GET request
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>22:27:30</td>
+        <td>
+          Then I should get a status code of 205
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>22:27:30</td>
+        <td>
+          Incorrect status code: Expected status code:- 205 Actual status code:- 200
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Positive Dog breeds</p>
+            <p class="text-sm">
+              <span>22:27:30</span> / <span>00:00:00:476</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Positive Dog breeds</h5>
+<span class='badge badge-success'>07.06.2025 22:27:30</span>
+<span class='badge badge-danger'>07.06.2025 22:27:30</span>
+<span class='badge badge-default'>00:00:00:476</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5">Executing Positive Dog breeds</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:27:30</td>
+        <td>
+          Given I have the dogs endpoint
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>22:27:30</td>
+        <td>
+          RRequest URL: https://dog.ceo/dog-api/documentation/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:27:30</td>
+        <td>
+          When I do a GET request
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:27:30</td>
+        <td>
+          Then I should get a status code of 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:27:30</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Negative Dog breeds</p>
+            <p class="text-sm">
+              <span>22:27:30</span> / <span>00:00:00:449</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Negative Dog breeds</h5>
+<span class='badge badge-success'>07.06.2025 22:27:30</span>
+<span class='badge badge-danger'>07.06.2025 22:27:31</span>
+<span class='badge badge-default'>00:00:00:449</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5">Executing Negative Dog breeds</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:27:30</td>
+        <td>
+          Given I have the dogs endpoint
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>22:27:31</td>
+        <td>
+          RRequest URL: https://dog.ceo/dog-api/documentation/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>22:27:31</td>
+        <td>
+          When I do a GET request
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>22:27:31</td>
+        <td>
+          Then I should get a status code of 230
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>22:27:31</td>
+        <td>
+          Incorrect status code: Expected status code:- 230 Actual status code:- 200
         </td>
       </tr>
   </tbody>
@@ -160,25 +369,25 @@ io.restassured.internal.RestAssuredResponseImpl@372461a9
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Jul 6, 2025 10:05:39 pm</h3>
+<h3>Jul 6, 2025 10:27:27 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Jul 6, 2025 10:05:41 pm</h3>
+<h3>Jul 6, 2025 10:27:31 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Tests Passed</p>
-<h3>1</h3>
+<h3>2</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Tests Failed</p>
-<h3>0</h3>
+<h3>2</h3>
 </div></div>
 </div>
 </div>
@@ -194,12 +403,12 @@ io.restassured.internal.RestAssuredResponseImpl@372461a9
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'>
-<b>1</b> tests passed
+<div><small data-tooltip='50%'>
+<b>2</b> tests passed
 </small>
 </div>
 <div>
-<small data-tooltip='0%'><b>0</b> tests failed,
+<small data-tooltip='50%'><b>2</b> tests failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -217,10 +426,10 @@ io.restassured.internal.RestAssuredResponseImpl@372461a9
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>5</b> events passed</small></div>
+<div><small data-tooltip='60%'><b>12</b> events passed</small></div>
 <div>
-<small data-tooltip='0%'><b>0</b> events failed,
-<b data-tooltip='%'>0</b> others
+<small data-tooltip='20%'><b>4</b> events failed,
+<b data-tooltip='%'>4</b> others
 </small>
 </div>
 </div>
@@ -236,7 +445,7 @@ io.restassured.internal.RestAssuredResponseImpl@372461a9
 </div></div>
 <script>
 var timeline = {
-"Cat facts":2.039
+"Positive response Cat facts":2.107,"Negative response Cat facts":0.104,"Positive Dog breeds":0.476,"Negative Dog breeds":0.449
 };
 </script>
 <div class="row">
@@ -267,8 +476,8 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 1,
-failParent: 0,
+passParent: 2,
+failParent: 2,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
@@ -284,11 +493,11 @@ warningGrandChild: 0,
 skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
-passEvents: 5,
-failEvents: 0,
+passEvents: 12,
+failEvents: 4,
 warningEvents: 0,
 skipEvents: 0,
-infoEvents: 0
+infoEvents: 4
 };
 </script>        </div>
       </div>
